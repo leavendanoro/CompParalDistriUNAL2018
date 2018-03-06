@@ -1,0 +1,17 @@
+Arrays.asalist(arreglo).parallelStream().filter().map(a double).average.orElse(-1)
+
+el orElse es por que puede no arrojar valor
+
+
+
+
+Array.asalist().parallelStream().
+filter().collect(Collectors.groupingBy(s -> s.getFirstname(),Collectors.counting())).entrySet().parallelStream().max((n1,n2) -> Long.compare(n1.getValue(),n2.getValue())).get().getkey();
+
+
+max es un metodo de streams
+
+y retorna un elemento del stream
+
+
+el .entrySet()  retorna el conjunto de entradas de mapa nombre1 3 nombre2 4 ...
